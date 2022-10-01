@@ -1,0 +1,67 @@
+<!-- kakaotalk ui clone -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        
+        <div id="sideBar">
+            <div class="btns">
+                <div class="close btns-icon"></div>
+                <div class="small btns-icon"></div>
+                <div class="big btns-icon"></div>
+            </div>
+        </div>
+        <div id="talk">
+            <div id="talkNavBar">
+                <span><b>채팅</b></span>
+                <select>
+                    <option value="1">최신 메시지 순</option>
+                    <option value="2">안 읽은 메시지 순</option>
+                    <option value="3">즐겨찾기 순</option>
+                    <option value="">---------------</option>
+                    <option value="4">모두 읽음 처리</option>
+                </select>
+            </div>
+            <div id="talkList">
+                <div class="talkTtem">
+                    <img class="chatProfile" src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/309/59932b0eb046f9fa3e063b8875032edd_crop.jpeg" width="46px" height="46px"></img>
+                    <div class="chatBody">
+                        <div class="chatNav">
+                            <span class="chatTitle">나</span>
+                            <span class="chatPeopleNum"></span>
+                            <span class="chatTitleTime">오후 2:03</span>
+                        </div>
+                        <div class="chatContent">
+                            오늘 할 것: 카카오톡 ui 개발<br>
+                            끝내기, 6시에 친구랑 농구...
+                        </div>
+                        <!-- 38자 제한 -->
+                    </div>
+                </div>
+                <div class="talkTtem">
+                    <img class="chatProfile" src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/309/59932b0eb046f9fa3e063b8875032edd_crop.jpeg" width="46px" height="46px"></img>
+                    <div class="chatBody">
+                        <div class="chatNav">
+                            <span class="chatTitle">친구1</span>
+                            <span class="chatPeopleNum"></span>
+                            <span class="chatTitleTime">오후 1:39</span>
+                        </div>
+                        <div class="chatContent">
+                            우리 6시에 같이 만나서 농구하자<br>
+                            그 다음에 배드민턴 치러 야탑...
+                        </div>
+                        <!-- 38자 제한 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

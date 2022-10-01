@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    width: 400px;
+    height: 642px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(115, 115, 115);
+    background-color: rgb(38, 38, 38);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 20px 20px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+#sideBar {
+    width: 70px;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(64, 64, 64);
+}
+
+#talk {
+    width: 290px;
+    margin: 20px;
+}
+
+#talkNavBar {
+    margin-bottom: 20px;
+}
+
+.talkTtem {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.chatProfile {
+    border-radius: 18px;
+}
+
+.chatBody {
+    width: 320px;
+    margin-left: 10px;
+}
+
+.chatNav {
+    display: flex;
+    width: 234px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.chatTitle {
+    color: #fff;
+}
+
+.chatTitleTime {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.chatContent {
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 8px;
+}
+
+.btns:hover {
+    background-color: #fff;
+}
+
+.btns-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    margin: 4px;
+    margin-top: 6px;
+    border-radius: 8px;
+}
+
+.close {
+    background-color: rgb(255, 95, 87);
+}
+
+.small {
+    background-color: rgb(255, 188, 46);
+}
+
+.big {
+    background-color: rgb(40, 200, 64);
+}

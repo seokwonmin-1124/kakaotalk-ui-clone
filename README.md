@@ -1,0 +1,1 @@
+순정 html과 css를 이용해 만드는 mac os kakaotalk ui clone project(with some actions)
